@@ -1,0 +1,58 @@
+/* إعدادات عامة للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* تصميم رأس الصفحة */
+header {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 1.2em;
+}
+
+/* تصميم أقسام المحتوى */
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 {
+    color: #00bcd4;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* تصميم قسم Footer */
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
